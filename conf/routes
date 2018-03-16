@@ -1,0 +1,5 @@
+GET         /topics                     controllers.Topics.getAll
+PUT         /topics/:topic              controllers.Topics.create(topic: String)
+DELETE      /topics/:topic              controllers.Topics.delete(topic: String)
+GET         /acls                       controllers.Acls.getAcls
+GET         /swagger.json               controllers.ApiHelpController.getResources
